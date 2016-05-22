@@ -1,12 +1,13 @@
 return {
-	bot_api_key = '',
-	admin = 23646077,
-	log_chat = -1001057801239,
-	channel = '@groupbutler_ch', --channel username with the '@'
+	bot_api_key = '213879334:AAHrNB4EQsLTmJ2SXKN1TEkFJd8r-zffN2g',
+	admin = 119989724,
+	log_chat = -1001065569413,
+	channel = '@LionTeam', --channel username with the '@'
 	languages = 'languages.lua',
 	plugins = {
 		'onmessage.lua', --THIS HAVE TO BE THE FIRST: IF AN USER IS SPAMMING/IS BLOCKED, THE BOT WON'T GO THROUGH PLUGINS
 		'all.lua',
+                'echo.lua',
 		'banhammer.lua',
 		'mod.lua',
 		'users.lua',
